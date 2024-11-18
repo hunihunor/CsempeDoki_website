@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'HelveticaNeueLight';
+    src: url('../fonts/helveticaneue-light.eot');
+    src: url('../fonts/helveticaneue-light.eot') format('embedded-opentype'),
+         url('../fonts/helveticaneue-light.woff') format('woff'),
+         url('../fonts/helveticaneue-light.ttf') format('truetype'),
+         url('../fonts/helveticaneue-light.svg#HelveticaNeueLight') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueRegular';
+    src: url('../fonts/helveticaneue-regular.eot');
+    src: url('../fonts/helveticaneue-regular.eot') format('embedded-opentype'),
+         url('../fonts/helveticaneue-regular.woff') format('woff'),
+         url('../fonts/helveticaneue-regular.ttf') format('truetype'),
+         url('../fonts/helveticaneue-regular.svg#HelveticaNeueRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueItalic';
+    src: url('../fonts/helveticaneue-italic.eot');
+    src: url('../fonts/helveticaneue-italic.eot') format('embedded-opentype'),
+         url('../fonts/helveticaneue-italic.woff') format('woff'),
+         url('../fonts/helveticaneue-italic.ttf') format('truetype'),
+         url('../fonts/helveticaneue-italic.svg#HelveticaNeueItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueMedium';
+    src: url('../fonts/helveticaneue-medium.eot');
+    src: url('../fonts/helveticaneue-medium.eot') format('embedded-opentype'),
+         url('../fonts/helveticaneue-medium.woff') format('woff'),
+         url('../fonts/helveticaneue-medium.ttf') format('truetype'),
+         url('../fonts/helveticaneue-medium.svg#HelveticaNeueMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueBold';
+    src: url('../fonts/helveticaneue-bold.eot');
+    src: url('../fonts/helveticaneue-bold.eot') format('embedded-opentype'),
+         url('../fonts/helveticaneue-bold.woff') format('woff'),
+         url('../fonts/helveticaneue-bold.ttf') format('truetype'),
+         url('../fonts/helveticaneue-bold.svg#HelveticaNeueBold') format('svg');
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!-- saved from url=(0021)http://csempedoki.hu/ -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="./Csempe Doki_files/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="./Csempe Doki_files/fonts.css" type="text/css" media="screen">
+    <link type="text/css" rel="stylesheet" href="./Csempe Doki_files/featherlight.css">
+    <link type="text/css" rel="stylesheet" href="./Csempe Doki_files/featherlight.gallery.css">
+    <script src="./Csempe Doki_files/jquery-1.11.3.min.js.letöltés"></script>
+
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <title>Csempe doki</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="apple-touch-icon" sizes="57x57" href="http://csempedoki.hu/images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="http://csempedoki.hu/images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://csempedoki.hu/images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://csempedoki.hu/images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114"
+        href="http://csempedoki.hu/images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120"
+        href="http://csempedoki.hu/images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144"
+        href="http://csempedoki.hu/images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152"
+        href="http://csempedoki.hu/images/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="http://csempedoki.hu/images/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="http://csempedoki.hu/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="http://csempedoki.hu/images/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="http://csempedoki.hu/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="http://csempedoki.hu/images/favicons/android-chrome-192x192.png"
+        sizes="192x192">
+    <link rel="icon" type="image/png" href="http://csempedoki.hu/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="http://csempedoki.hu/images/favicons/manifest.json">
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('a[href^="#"]').on('click', function (e) {
+                e.preventDefault();
+
+                var target = this.hash;
+                var $target = $(target);
+
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top
+                }, 900, 'swing', function () {
+                    //window.location.hash = target;
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v9.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/hu_HU/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution="setup_tool" page_id="800114703341667" theme_color="#bf8f3b"
+        logged_in_greeting="Üdv. Van esetleg olyan kérdésed, amiben tudok segíteni?"
+        logged_out_greeting="Üdv. Van esetleg olyan kérdésed, amiben tudok segíteni?" greeting_dialog_display="hide">
+    </div>
+
+    <div class="fullscreen background first1 not-overflow" data-img-width="1600" data-img-height="1000"
+        style="background-size: 2139.2px 1337px;">
+
+        <!-- menüsor -->
+        <div class="menu-bar">
+            <div class="container">
+                <a href="http://csempedoki.hu/#">
+                    <div id="logo1"></div>
+                    <div id="logo2"></div>
+                </a>
+                <dir id="menu">
+                    <dir id="items">
+                        <a href="http://csempedoki.hu/#bemutatkozas">Bemutatkozás</a>
+                        <a href="http://csempedoki.hu/#referenciak">Referenciák</a>
+                        <a href="http://csempedoki.hu/#kapcsolat">Kapcsolat</a>
+                    </dir>
+                </dir>
+            </div>
+        </div>
+        <div id="menu">
+            <div id="items">
+            </div>
+        </div>
+
+        <!-- bevezető szöveg -->
+        <div class="content-a">
+            <div class="content-c">
+                <div class="container2">
+                    <h2>Szeretnék egy online oktatással foglalkozó felületet indítani!</h2>
+                    <h3>Az elképzelés az, hogy témakörökre és azokat kissebb fejezetekre bontva bemutatnánk és
+                        átbeszélnénk a szakma különböző
+                        lényeges részeit és fortélyait érthetően és emészthető módon.
+
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- fel a tetejére -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Ʌ</button>
+
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() { document.documentElement.scrollTop = 0; }</script>
+
+    <!-- kapcsolat -->
+    <div class="fullscreen background fourth not-overflow" data-img-width="1600" data-img-height="1000"
+        style="background-size: 2139.2px 1337px;"><a id="kapcsolat"></a>
+        <div class="content-a">
+            <div class="content-b">
+                <div class="container2">
+                    <h2>Kapcsolat</h2>
+                    <h3><a href="tel:+36204745963">+36 20 / 474 5963</a></h3>
+                    <h3>
+                    </h3>
+                    <h3><a href="mailto:csempedoki2014@gmail.com">csempedoki@csempedoki.hu</a></h3>
+                    <h3>
+                    </h3>
+                    <h3><a href="https://www.facebook.com/csempedoki" target="_blank">Facebook</a></h3>
+                    <h3>
+                    </h3>
+                    <h3><a href="https://youtube.com/c/Csempedoki" target="_blank">Youtube</a></h3>
+                    <h3>
+                        <div class="footertext">Csempe Doki ©
+                            <script>document.write(new Date().getFullYear())</script>
+                        </div>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./Csempe Doki_files/script.js.letöltés"></script>
+    <script>
+        $(document).ready(function () {
+            $('.gallery').featherlightGallery({
+                gallery: {
+                    fadeIn: 300,
+                    fadeOut: 300
+                },
+                openSpeed: 300,
+                closeSpeed: 300
+            });
+        });
+    </script>
+    <script src="./Csempe Doki_files/featherlight.js.letöltés" type="text/javascript" charset="utf-8"></script>
+    <script src="./Csempe Doki_files/featherlight.gallery.js.letöltés" type="text/javascript" charset="utf-8"></script>
+
+
+</body>
+
+</html>
